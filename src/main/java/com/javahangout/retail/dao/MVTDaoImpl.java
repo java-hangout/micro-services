@@ -14,7 +14,7 @@ public class MVTDaoImpl implements MVTDao{
 		chainRes.setClient(chainReq.getClient());
 		chainRes.setMineLocation(chainReq.getMineLocation());
 		chainRes.setMiningMethod(chainReq.getMiningMethod());
-		chainRes.setCommoditty(chainReq.getCommoditty());
+		chainRes.setCommodity(chainReq.getCommodity());
 		return chainRes;
 	}
 

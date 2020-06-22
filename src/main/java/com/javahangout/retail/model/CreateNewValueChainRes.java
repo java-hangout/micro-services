@@ -6,7 +6,7 @@ public class CreateNewValueChainRes {
 	private String client;
 	private String mineLocation;
 	private String miningMethod;
-	private String commoditty;
+	private String commodity;
 
 	public String getName() {
 		return name;
@@ -40,12 +40,13 @@ public class CreateNewValueChainRes {
 		this.miningMethod = miningMethod;
 	}
 
-	public String getCommoditty() {
-		return commoditty;
+	public String getCommodity() {
+		return commodity;
 	}
 
-	public void setCommoditty(String commoditty) {
-		this.commoditty = commoditty;
+	public void setCommodity(String commodity) {
+		this.commodity = commodity;
 	}
+
 
 }
